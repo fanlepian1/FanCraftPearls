@@ -1,0 +1,4 @@
+name: FanCraftPearls
+version: '1.0-SNAPSHOT'
+main: cn.fancraft.fanCraftPearls.FanCraftPearls
+api-version: '1.21'
