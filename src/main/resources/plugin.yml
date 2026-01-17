@@ -1,0 +1,26 @@
+name: FanCraftPearls
+version: '1.0-SNAPSHOT'
+main: cn.fancraft.fanCraftPearls.FanCraftPearls
+api-version: '1.21'
+author: FanCraft
+description: 让玩家可以骑乘末影珍珠进行移动的插件
+
+commands:
+  fancraftpearls:
+    description: 重新加载FanCraftPearls插件配置
+    usage: /fancraftpearls reload
+    permission: fancraftpearls.reload
+    aliases: [fcp]
+
+permissions:
+  fancraftpearls.*:
+    description: 所有FanCraftPearls权限
+    children:
+      fancraftpearls.use: true
+      fancraftpearls.reload: true
+  fancraftpearls.use:
+    description: 允许使用骑乘末影珍珠功能
+    default: true
+  fancraftpearls.reload:
+    description: 允许重新加载插件配置
+    default: op
