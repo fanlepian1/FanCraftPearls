@@ -36,9 +36,6 @@ jobs:
         tag_name: ${{ steps.get_version.outputs.VERSION }}
         name: FanCraftPearls ${{ steps.get_version.outputs.VERSION }}
         body: |
-          ## 更新内容
-
-          请在发布前填写更新内容。
 
           ## 下载说明
 
