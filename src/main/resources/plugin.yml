@@ -1,5 +1,5 @@
 name: FanCraftPearls
-version: '1.0'
+version: '1.0.0'
 main: cn.fancraft.fanCraftPearls.FanCraftPearls
 api-version: '1.21'
 author: FanCraft
