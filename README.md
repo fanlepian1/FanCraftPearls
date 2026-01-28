@@ -38,11 +38,6 @@
 - 创建新的末影珍珠实体并将玩家设为乘客
 - 每个玩家的末影珍珠独立管理，不会互相干扰
 
-## 开发者信息
-
-- 主类：`cn.fancraft.fanCraftPearls.FanCraftPearls`
-- 事件监听器：`cn.fancraft.fanCraftPearls.listeners.EnderPearlListener`
-
 ## 许可证
 
 本插件遵循 MIT 许可证。
